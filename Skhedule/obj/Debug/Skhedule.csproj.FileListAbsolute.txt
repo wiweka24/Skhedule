@@ -1,0 +1,10 @@
+D:\Coding\FInalProjectOOP\Skhedule\Skhedule\bin\Debug\Skhedule.exe.config
+D:\Coding\FInalProjectOOP\Skhedule\Skhedule\bin\Debug\Skhedule.exe
+D:\Coding\FInalProjectOOP\Skhedule\Skhedule\bin\Debug\Skhedule.pdb
+D:\Coding\FInalProjectOOP\Skhedule\Skhedule\obj\Debug\Skhedule.csprojAssemblyReference.cache
+D:\Coding\FInalProjectOOP\Skhedule\Skhedule\obj\Debug\Skhedule.Form1.resources
+D:\Coding\FInalProjectOOP\Skhedule\Skhedule\obj\Debug\Skhedule.Properties.Resources.resources
+D:\Coding\FInalProjectOOP\Skhedule\Skhedule\obj\Debug\Skhedule.csproj.GenerateResource.cache
+D:\Coding\FInalProjectOOP\Skhedule\Skhedule\obj\Debug\Skhedule.csproj.CoreCompileInputs.cache
+D:\Coding\FInalProjectOOP\Skhedule\Skhedule\obj\Debug\Skhedule.exe
+D:\Coding\FInalProjectOOP\Skhedule\Skhedule\obj\Debug\Skhedule.pdb
