@@ -38,5 +38,13 @@ namespace Skhedule
             get { return actType; }
             set { actType = value; }
         }
+
+        //Constructor
+        public Activity(string Name, string Type, string Desc)
+        {
+            this.Name = Name;
+            this.Type = Type;
+            this.Desc = Desc;
+        }
     }
 }

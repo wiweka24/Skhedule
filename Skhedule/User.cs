@@ -40,7 +40,6 @@ namespace Skhedule
         }
 
         //Cosntructor
-        public User() { }
         public User(string formUssername, string formPassword)
         {
             Ussername = formUssername;
@@ -48,9 +47,11 @@ namespace Skhedule
         }
 
         //Method
-        public void signUp()
+        public bool signUp(string formUssername, string formPassword)
         {
-            //usser add new ussername and password
+            //usser add new ussername and password to database
+            //still dummy jadi uname dan pass apapun true
+            return true;
         }
 
         public bool login(string formUssername, string formPassword)
