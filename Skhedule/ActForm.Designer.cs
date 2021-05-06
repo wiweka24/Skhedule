@@ -120,6 +120,7 @@ namespace Skhedule
             this.clHari.Name = "clHari";
             this.clHari.Size = new System.Drawing.Size(120, 109);
             this.clHari.TabIndex = 7;
+            this.clHari.SelectedIndexChanged += new System.EventHandler(this.clHari_SelectedIndexChanged);
             // 
             // btnAct
             // 

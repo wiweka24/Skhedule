@@ -12,6 +12,7 @@ namespace Skhedule
 {
     public partial class ActForm : Form
     {
+        public string jenis;
         public ActForm()
         {
             InitializeComponent();
@@ -22,7 +23,7 @@ namespace Skhedule
             if (cbDaily.Checked)
             {
                 clTanggal.Hide();
-                //Activity Act1 = new OnceActivity();
+                jenis = cbDaily.ToString();
             }
             else if (!cbDaily.Checked)
             {
@@ -35,6 +36,7 @@ namespace Skhedule
             if (cbOnce.Checked)
             {
                 clHari.Hide();
+                jenis = cbOnce.ToString();
             }
             else if (!cbOnce.Checked)
             {
@@ -55,12 +57,56 @@ namespace Skhedule
             else if (cbOnce.Checked)
             {
                 MessageBox.Show("Aktivitas Berhasil ditambahkan");
-                Activity Act1 = new DailyActivity(tbNama.Text, tbDesk.Text, cbOnce.ToString());
-            }
+                //Activity Act1 = new DailyActivity(tbNama.Text, tbDesk.Text, cbOnce.ToString());
+                TambahData();
+            } 
             else
             {
                 MessageBox.Show("Aktivitas Rutin Berhasil ditambahkan");
-                Activity Act2 = new DailyActivity(tbNama.Text, tbDesk.Text, cbOnce.ToString());
+                TambahDataDaily();
+            }
+
+        }
+
+        private void TambahData()
+        {
+            var context = new SkheduleDBEntities();
+            var act = new ActTable()
+            {
+                jenisAct = jenis,
+                namaAct = tbNama.Text,
+                waktuAct = clTanggal.Value,
+                deskAct = tbDesk.Text
+            };
+            context.ActTables.Add(act);
+            context.SaveChanges();
+        }
+
+        private void TambahDataDaily()
+        {
+            var contextDaily = new SkheduleDBEntities();
+            var actDaily = new ActDailyTable()
+            {
+                jenisDact = jenis,
+                namaDact = tbNama.Text,
+                waktuDact = clHari.Text,
+                deskDact = tbDesk.Text
+            };
+            contextDaily.ActDailyTables.Add(actDaily);
+            contextDaily.SaveChanges();
+        }
+
+        private void clHari_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int index = clHari.SelectedIndex;
+            string waktu = clHari.SelectedItem.ToString();
+            int count = clHari.Items.Count;
+            for(int x = 0; x < count; x++)
+            {
+                if(index != x)
+                {
+                    clHari.SetItemCheckState(x, CheckState.Unchecked);
+                }
             }
         }
     }
