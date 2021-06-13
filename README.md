@@ -1,14 +1,5 @@
 ## Skhedule
-Aplikasi ini menyediakan sarana untuk mengorganisir jadwal kegiatan secara lebih
-mudah dengan sistem automasi yang ditawarkan. Secara garis besar fitur utama dari
-aplikasi ini adalah rekomendasi jadwal rutin. Ketika user memasukkan beberapa jadwal
-rutin seperti jadwal kuliah dan jadwal organisasi beserta beberapa pilihan waktu
-kegiatannya, sistem secara otomatis akan memberikan beberapa rekomendasi waktu yang
-cocok untuk dipilih user. User dapat memilih jadwal yang paling sesuai dengan waktu
-mereka. Lalu saat nantinya user memiliki kegiatan lain seperti lomba atau event dan ingin
-memasukkan ke dalam jadwal yang sudah ada namun ternyata jadwal pada saat itu sudah
-penuh, sistem akan merekomendasikan waktu lain yang tidak bertabrakan dengan jadwal
-yang sudah ada sebelumnya sehingga akan terbentuk jadwal kegiatan yang tertata baik.
+Aplikasi ini menyediakan sarana untuk mengorganisir jadwal kegiatan secara lebih mudah dengan sistem automasi yang ditawarkan. Secara garis besar fitur utama dari aplikasi ini adalah rekomendasi jadwal rutin. Ketika user memasukkan beberapa jadwal rutin seperti jadwal kuliah dan jadwal organisasi beserta beberapa pilihan waktu kegiatannya, sistem secara otomatis akan memberikan beberapa rekomendasi waktu yang cocok untuk dipilih user. User dapat memilih jadwal yang paling sesuai dengan waktu mereka. Lalu saat nantinya user memiliki kegiatan lain seperti lomba atau event dan ingin memasukkan ke dalam jadwal yang sudah ada namun ternyata jadwal pada saat itu sudah penuh, sistem akan merekomendasikan waktu lain yang tidak bertabrakan dengan jadwal yang sudah ada sebelumnya sehingga akan terbentuk jadwal kegiatan yang tertata baik.
 
 ### Demo Aplikasi
 
