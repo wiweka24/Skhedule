@@ -1,6 +1,10 @@
 ## Skhedule
 Aplikasi ini menyediakan sarana untuk mengorganisir jadwal kegiatan secara lebih mudah dengan sistem automasi yang ditawarkan. Secara garis besar fitur utama dari aplikasi ini adalah rekomendasi jadwal rutin. Ketika user memasukkan beberapa jadwal rutin seperti jadwal kuliah dan jadwal organisasi beserta beberapa pilihan waktu kegiatannya, sistem secara otomatis akan memberikan beberapa rekomendasi waktu yang cocok untuk dipilih user. User dapat memilih jadwal yang paling sesuai dengan waktu mereka. Lalu saat nantinya user memiliki kegiatan lain seperti lomba atau event dan ingin memasukkan ke dalam jadwal yang sudah ada namun ternyata jadwal pada saat itu sudah penuh, sistem akan merekomendasikan waktu lain yang tidak bertabrakan dengan jadwal yang sudah ada sebelumnya sehingga akan terbentuk jadwal kegiatan yang tertata baik.
 
+### Anggota
+1. Richard Harryson 20/456378/TK/50508
+2. Wiweka Yoga Sadewa 20/456382/TK/50512
+
 ### Demo Aplikasi
 
 ### Petunjuk Penggunaan
@@ -20,7 +24,7 @@ Petunjuk pengunaan Aplikasi Skhedule sebagai berikut.
 7d. Ulangi langkah-langkah ini jika ingin menambahkan jadwal.
 8. Untuk mengedit jadwal seperti merubah nama dan deskripsi, baik rutin maupun yang hanya berjangka satu hari, user bisa meng-klik tulisan nama kegiatan yang ada di kolom kalender lalu akan muncul tampilan seperti jika menambahkan aktivitas, namun perbedaannya, user nanti meng-klik tombol Ubah untuk meng-submit aktivitas yang diedit. Lalu, user meng-klik tombol   (refresh, yang ada di sebelah kanan tombol Aktivitas Baru) untuk merefresh page agar tertampil page baru yang berisi kegiatan/aktivitas yang sudah di-update.
 9. Untuk menghapus kegiatan, klik nama kegiatan yang ingin dihapus, lalu klik tombol hapus (berbentuk tempat sampah). Setelah itu, klik tombol refresh untuk melihat data yang sudah di-update.
-10.   Tombol Exit dari program ada di bagian pojok kiri tampilan, kegunaanya untuk keluar dari aplikasi .
+10. Tombol Exit dari program ada di bagian pojok kiri tampilan, kegunaanya untuk keluar dari aplikasi .
 
 ### Diagram Basis Data
 ![DiagramDatabase](DiagramDatabase.png)
