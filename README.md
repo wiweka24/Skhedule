@@ -1,12 +1,9 @@
 Petunjuk penggunaan aplikasi SKHEDULE
-1. Buka aplikasi Skhedule dan akan tertampil Login Page seperti ini
- 
+1. Buka aplikasi Skhedule dan akan tertampil Login Page
 2. Sebagai user baru, maka user harus terlebih dahulu membuat akun dengan cara meng-klik tombol Sign Up dan akan diarahkan ke sign-up page. Jika user sudah memiliki akun, silahkan langsung memasukkan username dan password akun.
- 
 3. User memasukkan username dan password akun yang diinginkan dan mengkonfirmasi password masukan. Pastikan untuk memasukkan password konfirmasi yang benar.
 4. Setelah itu, user akan diarahkan kembali ke Login Page. Di sini user bisa memasukkan username dan password yang sudah di Sign Up untuk masuk ke halaman utama aplikasi.
-5. Setelah masuk ke halaman utama aplikasi, maka akan muncul page sebagai berikut.
- 
+5. Setelah itu, aplikasi akan masuk ke halaman utama.
 6. Tombol   Hari Ini digunakan untuk melihat hari apakah saat ini dan kembali ke halaman kalender hari ini jika nantinya sudah mengklik tombol next month (berwarna ungu di kanan dan kiri bulan dan tahun) terlalu banyak dan ingin segera melihat jadwal hari ini. Pada kalender juga ada tanggal yang berwarna oranye, warna tersebut menandakan hari saat ini.
 7. Untuk menambahkan aktivitas atau jadwal user, user bisa meng-klik tombol   Aktivitas Baru.
 7a. User memilih jenis aktivitas, apakah rutin (aktivitas harian) atau aktivitas yang hanya sekali (aktivitas tertentu); memasukkan nama kegiatan; dan memilih tanggal. 
