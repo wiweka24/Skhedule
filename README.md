@@ -13,9 +13,9 @@ yang sudah ada sebelumnya sehingga akan terbentuk jadwal kegiatan yang tertata b
 ## Demo Aplikasi
 
 ## Petunjuk Penggunaan
+
 Untuk dapat menggunakan Aplikasi ini, pertama user perlu mendownload file SkheduleApp.zip lalu mengekstraknya
 Petunjuk pengunaan Aplikasi Skhedule sebagai berikut.
----
 1. Buka aplikasi Skhedule dan akan tertampil Login Page
 2. Sebagai user baru, maka user harus terlebih dahulu membuat akun dengan cara meng-klik tombol Sign Up dan akan diarahkan ke sign-up page. Jika user sudah memiliki akun, silahkan langsung memasukkan username dan password akun.
 3. User memasukkan username dan password akun yang diinginkan dan mengkonfirmasi password masukan. Pastikan untuk memasukkan password konfirmasi yang benar.
