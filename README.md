@@ -1,9 +1,18 @@
-# Skhedule
-
-Proyek Aplikasi ini merupakan aplikasi dekstop yang dapat digunakan untuk membantu mengorganisir jadwal kegiatan. Aplikasi ini terdiri dari user dan sistem. User adalah pihak pemakai aplikasi yang dapat menggunakan aplikasi untuk menambahkan, mengedit, dan menghapus aktivitas. Sedangkan sistem adalah pihak dari aplikasi itu sendiri yang memiliki peran untuk menyimpan data user, menyimpan  dan mengelola aktivitas user serta memberikan rekomendasi pilihan jadwal yang sesuai bagi user.<br><br>
-Domain Diagram<br>
-![](DomainDiagramNew.png)
-<br>
-Berikut ini adalah tabel UML dari program yang kami buat<br>
-![](DiagramDatabase.png)<br><br>
-Terdapat 3 tabel pada UML program yaitu ActTable, ActDailyTable, dan UserTable. ActTable merupakan tabel untuk menyimpan data dari user yang berupa jadwal yang hanya sekali digunakan. Adapun data yang disimpan di tabel ini yaitu jenis kegiatan(berupa kegiatan yang hanya sekali dilakukan), nama kegiatan, waktu kegiatan(berupa tanggal kegiatan), dan deskripsi kegiatan. ActDailyTable merupakan tabel yang digunakan untuk menyimpan data jadwal harian user. Data-data yang disimpan yaitu jenis kegiatan(berupa kegiatan yang dilakukan setiap hari tertentu), nama kegiatan, hari kegiatan, dan deskripsi kegiatan. Yang terakhir yaitu UserTable. Tabel ini menyimpan data username dan password dari akun user. Pada setiap tabel diberikan id supaya tidak terjadi error dalam pemanggilan tabel. 
+Petunjuk penggunaan aplikasi SKHEDULE
+1. Buka aplikasi Skhedule dan akan tertampil Login Page seperti ini
+ 
+2. Sebagai user baru, maka user harus terlebih dahulu membuat akun dengan cara meng-klik tombol Sign Up dan akan diarahkan ke sign-up page. Jika user sudah memiliki akun, silahkan langsung memasukkan username dan password akun.
+ 
+3. User memasukkan username dan password akun yang diinginkan dan mengkonfirmasi password masukan. Pastikan untuk memasukkan password konfirmasi yang benar.
+4. Setelah itu, user akan diarahkan kembali ke Login Page. Di sini user bisa memasukkan username dan password yang sudah di Sign Up untuk masuk ke halaman utama aplikasi.
+5. Setelah masuk ke halaman utama aplikasi, maka akan muncul page sebagai berikut.
+ 
+6. Tombol   Hari Ini digunakan untuk melihat hari apakah saat ini dan kembali ke halaman kalender hari ini jika nantinya sudah mengklik tombol next month (berwarna ungu di kanan dan kiri bulan dan tahun) terlalu banyak dan ingin segera melihat jadwal hari ini. Pada kalender juga ada tanggal yang berwarna oranye, warna tersebut menandakan hari saat ini.
+7. Untuk menambahkan aktivitas atau jadwal user, user bisa meng-klik tombol   Aktivitas Baru.
+7a. User memilih jenis aktivitas, apakah rutin (aktivitas harian) atau aktivitas yang hanya sekali (aktivitas tertentu); memasukkan nama kegiatan; dan memilih tanggal. 
+7b. User juga bisa menambahkan deskripsi kegiatan atau aktivitas di kolom deskripsi (Opsional).
+7c. Setelah itu, klik tombol Tambah Baru maka jadwal secara otomatis akan tertambah dan tertampil di layar aplikasi.
+7d. Ulangi langkah-langkah ini jika ingin menambahkan jadwal.
+8. Untuk mengedit jadwal seperti merubah nama dan deskripsi, baik rutin maupun yang hanya berjangka satu hari, user bisa meng-klik tulisan nama kegiatan yang ada di kolom kalender lalu akan muncul tampilan seperti jika menambahkan aktivitas, namun perbedaannya, user nanti meng-klik tombol Ubah untuk meng-submit aktivitas yang diedit. Lalu, user meng-klik tombol   (refresh, yang ada di sebelah kanan tombol Aktivitas Baru) untuk merefresh page agar tertampil page baru yang berisi kegiatan/aktivitas yang sudah di-update.
+9. Untuk menghapus kegiatan, klik nama kegiatan yang ingin dihapus, lalu klik tombol hapus (berbentuk tempat sampah). Setelah itu, klik tombol refresh untuk melihat data yang sudah di-update.
+10.   Tombol Exit dari program ada di bagian pojok kiri tampilan, kegunaanya untuk keluar dari aplikasi .
