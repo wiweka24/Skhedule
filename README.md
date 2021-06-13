@@ -30,4 +30,4 @@ Petunjuk pengunaan Aplikasi Skhedule sebagai berikut.
 ![DiagramDatabase](DiagramDatabase.png)
 
 ### Class Diagram
-![DomainDiagram](DomainDiagram.png)
+![DomainDiagram](DomainDiagram.JPG)
