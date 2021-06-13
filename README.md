@@ -6,6 +6,8 @@ Aplikasi ini menyediakan sarana untuk mengorganisir jadwal kegiatan secara lebih
 2. Wiweka Yoga Sadewa 20/456382/TK/50512
 
 ### Demo Aplikasi
+Contoh Peenggunaan Aplikasi dapat dilihat di
+https://youtu.be/ritQKebdUaw
 
 ### Petunjuk Penggunaan
 
