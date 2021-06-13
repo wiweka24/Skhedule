@@ -10,11 +10,11 @@ memasukkan ke dalam jadwal yang sudah ada namun ternyata jadwal pada saat itu su
 penuh, sistem akan merekomendasikan waktu lain yang tidak bertabrakan dengan jadwal
 yang sudah ada sebelumnya sehingga akan terbentuk jadwal kegiatan yang tertata baik.
 
-## Demo Aplikasi
+### Demo Aplikasi
 
-## Petunjuk Penggunaan
+### Petunjuk Penggunaan
 
-Untuk dapat menggunakan Aplikasi ini, pertama user perlu mendownload file SkheduleApp.zip lalu mengekstraknya
+Untuk dapat menggunakan Aplikasi ini, pertama user perlu mendownload file SkheduleApp.zip lalu mengekstraknya.
 Petunjuk pengunaan Aplikasi Skhedule sebagai berikut.
 1. Buka aplikasi Skhedule dan akan tertampil Login Page
 2. Sebagai user baru, maka user harus terlebih dahulu membuat akun dengan cara meng-klik tombol Sign Up dan akan diarahkan ke sign-up page. Jika user sudah memiliki akun, silahkan langsung memasukkan username dan password akun.
@@ -30,3 +30,7 @@ Petunjuk pengunaan Aplikasi Skhedule sebagai berikut.
 8. Untuk mengedit jadwal seperti merubah nama dan deskripsi, baik rutin maupun yang hanya berjangka satu hari, user bisa meng-klik tulisan nama kegiatan yang ada di kolom kalender lalu akan muncul tampilan seperti jika menambahkan aktivitas, namun perbedaannya, user nanti meng-klik tombol Ubah untuk meng-submit aktivitas yang diedit. Lalu, user meng-klik tombol   (refresh, yang ada di sebelah kanan tombol Aktivitas Baru) untuk merefresh page agar tertampil page baru yang berisi kegiatan/aktivitas yang sudah di-update.
 9. Untuk menghapus kegiatan, klik nama kegiatan yang ingin dihapus, lalu klik tombol hapus (berbentuk tempat sampah). Setelah itu, klik tombol refresh untuk melihat data yang sudah di-update.
 10.   Tombol Exit dari program ada di bagian pojok kiri tampilan, kegunaanya untuk keluar dari aplikasi .
+
+### Diagram Basis Data
+
+### Class Diagram
