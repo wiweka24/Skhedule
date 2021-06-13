@@ -23,6 +23,7 @@ Petunjuk pengunaan Aplikasi Skhedule sebagai berikut.
 10.   Tombol Exit dari program ada di bagian pojok kiri tampilan, kegunaanya untuk keluar dari aplikasi .
 
 ### Diagram Basis Data
-![Screenshot](DomainDiagram.png)
+![DiagramDatabase](DiagramDatabase.png)
 
 ### Class Diagram
+![DomainDiagram](DomainDiagram.png)
